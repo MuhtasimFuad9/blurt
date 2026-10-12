@@ -1,0 +1,27 @@
+# Exact versions, so every install (and the installer build) gets the same, tested packages.
+# Update on purpose: change a version, run the tests, then pip-audit.
+groq==1.7.0
+python-dotenv==1.2.3
+sounddevice==0.5.6
+numpy==2.5.3
+PySide6-Essentials==6.11.2
+comtypes==1.4.17
+
+# Pulled in by the ones above, pinned too, so pip can't pick newer untested ones.
+# tests/test_requirements.py checks these match what's installed and that none is missing.
+annotated-types==0.8.0
+anyio==4.15.1
+certifi==2026.7.22
+cffi==2.1.1
+distro==1.9.0
+h11==0.16.0
+httpcore==1.0.9
+httpx==0.28.1
+idna==3.20
+pycparser==3.0
+pydantic==2.13.5
+pydantic_core==2.46.5
+shiboken6==6.11.2
+sniffio==1.3.1
+typing_extensions==4.16.0
+typing-inspection==0.4.4

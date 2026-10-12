@@ -1,0 +1,40 @@
+# Secrets
+.env
+.env.*
+# Words that identify the developer; tools/build.py refuses a build that contains them
+personal_words.txt
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Your own settings and dictionary. The app creates them from config.example.json and
+# dictionary.example.txt on first run.
+config.json
+dictionary.txt
+*.tmp
+
+# Runtime data (recordings, logs, usage history)
+data/
+usage.db*
+*.wav
+*.log
+
+# Old file-copy restore points (kept on disk, not committed)
+backups/
+
+
+# Editor and OS clutter
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# The log file when there is no console (app.log and the older app.log.1)
+logs/
+
+# The build (tools/build.py): PyInstaller's work folder, the built app and the installer
+build/
+dist/
+

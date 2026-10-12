@@ -1,0 +1,11 @@
+# Only for building the installer (tools/build.py), not needed to run the app.
+# Install after requirements.txt: .\.venv\Scripts\python.exe -m pip install -r requirements-build.txt
+pyinstaller==6.22.3
+
+# Pulled in by the one above, pinned too (tests/test_requirements.py checks them):
+altgraph==0.17.5
+packaging==26.3
+pefile==2024.8.26
+pyinstaller-hooks-contrib==2026.7
+pywin32-ctypes==0.2.3
+setuptools==84.0.0

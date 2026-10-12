@@ -1,0 +1,8 @@
+# Store text files with LF line endings in Git, whatever each computer's settings are.
+# Windows checkouts still get CRLF in the working folder (core.autocrlf), which is fine.
+* text=auto
+
+# Never touch these
+*.png binary
+*.wav binary
+*.ico binary

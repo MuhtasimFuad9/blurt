@@ -1,0 +1,5 @@
+# Words the app should always spell exactly like this. One per line.
+# Lines starting with # are ignored. Changes apply on the next dictation.
+# Add terms here, or copy a word anywhere and use Add in the Dictionary panel.
+# For example (remove the # to use it):
+# Groq
